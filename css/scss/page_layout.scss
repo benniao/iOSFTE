@@ -17,15 +17,83 @@
 	top:118px;
 }
 
+#home{
+	position:absolute;
+	bottom:29px;
+	width:100%;
+	text-align:center;
+	button{
+		border:none;
+		height:70px;
+		width:70px;
+		background:url(../imgs/home.png) no-repeat 100px 100px;
+		background-size:70px;
+		&:active{
+			background-position:0px 0px;
+		}
+	}
+}
+
 #status-bar{
 	height:20px;
-	background-color:rgba(0,0,0,0.618);
 }
 
 #app-grids{
-	
+	height:334px;
+	padding-top:10px;
+}
+
+#page-control{
+	height:36px;
+	text-align:center;
+	span{
+		display:inline-block;
+		width:10px;
+		height:36px;
+		background:url(../imgs/icons.png) no-repeat 1px 12px;
+		background-size:50px;
+		&.active{
+			background-position:1px -13px;
+		}
+	}
 }
 
 #app-dock{
-	
+	height:80px;
+	background:url(../imgs/dock.png) no-repeat left bottom;
+	background-size:320px;
+	.app{
+		height:80px;
+	}
+}
+
+.app-column{
+	padding:0px 6px;
+	display:-webkit-box;
+	.app{
+		width:77px;
+		height:86px;
+	}
+	.app-icon{
+		width:57px;
+		height:57px;
+		margin:0 auto;
+		img{
+			width:57px;
+		}
+	}
+	.app-title{
+		color:white;
+		text-align:center;
+		font-size:13px;
+		padding-top:3px;
+		font-weight:bold;
+		text-shadow:-1px 1px 1px rgba(0,0,0,0.6);
+		
+		height:19px;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		word-wrap:break-word;
+	}
 }
