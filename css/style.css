@@ -23,7 +23,9 @@ html, body, div, header, button, span { padding: 0; margin: 0; font-family: 'Hel
 .app-column .app { width: 77px; height: 86px; }
 .app-column .app-icon { width: 57px; height: 57px; margin: 0 auto; }
 .app-column .app-icon img { width: 57px; }
-.app-column .app-title { color: white; text-align: center; font-size: 13px; padding-top: 3px; font-weight: bold; text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.6); height: 19px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; }
+.app-column .app-title { color: white; text-align: center; font-size: 13px; padding-top: 3px; font-weight: bold; text-shadow: -1px 2px 1px rgba(0, 0, 0, 0.6); height: 19px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; }
+
+body { background: -webkit-radial-gradient(white, #cccccc, #999999); padding-top: 30px; }
 
 #iPhone { background: url(../imgs/frame.png) no-repeat; background-size: 368px; }
 
