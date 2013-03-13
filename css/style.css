@@ -1,9 +1,11 @@
 html, body, div, header { padding: 0; margin: 0; }
 
-#iPhone { width: 375px; height: 735px; margin: 0 auto; position: relative; }
+#iPhone { width: 368px; height: 716px; margin: 0 auto; position: relative; }
 
-#screen { width: 320px; height: 480px; position: absolute; left: 29px; top: 128px; border-radius: 3px; }
+#screen { width: 320px; height: 480px; position: absolute; left: 24px; top: 118px; }
 
-#iPhone { background: url(../imgs/white_iphone.png) no-repeat; }
+#status-bar { height: 20px; background-color: rgba(0, 0, 0, 0.618); }
+
+#iPhone { background: url(../imgs/frame.png) no-repeat; background-size: 368px; }
 
 #screen { background: url(../imgs/background.png) no-repeat; background-size: 320px; }
